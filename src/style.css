@@ -1,17 +1,19 @@
 body {
   margin: 0;
   height: 100vh;
-  background-image: url("https://images.pexels.com/photos/28594604/pexels-photo-28594604/free-photo-of-outdoor-dining-with-fresh-seafood-and-aperol-spritz.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"); /* Replace with your sea wave image URL */
+  background-image: url("file:///C:/Users/iaros/Desktop/ai-mediterranean-cuisine-generator/images/Mediterranean-food.jpg");
   background-size: cover;
-  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 a {
   color: #385c56;
 }
 .container {
-  margin: 80px auto;
+  margin: 30px auto;
   max-width: 1000px;
+  overflow-wrap: break-word;
 }
 header {
   margin-bottom: 30px;
@@ -60,10 +62,10 @@ form {
 .recipe {
   font-size: 18px;
   background-color: #79e8aa;
-  padding: 20px;
+  padding: 15px;
   line-height: 24px;
-  border-left: 3px solid #36f7ba;
-  box-shadow: 0px 4px 20px 0px rgba(33, 11, 77, 00);
+  border-right: 3px solid #36f7ba;
+  box-shadow: 0px 4px 20px 0px rgba(44, 19, 94, 0);
 }
 .hidden {
   display: none;
@@ -76,11 +78,11 @@ footer {
   font-size: 14px;
   margin-top: 30px;
 }
-.generating {
-  animation: blink-animation 4s steps(5, start) infinite;
-}
 .recipe strong {
-  color: rgba(70, 70, 33, 0.333);
+  color: rgba(57, 30, 71, 0.333);
+}
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
 }
 @keyframes blink-animation {
   to {
