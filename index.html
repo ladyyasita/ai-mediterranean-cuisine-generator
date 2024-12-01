@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/style.css" />
+    <title>AI the Mediterranean recipe generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <header><h1>Welcome to the AI Mediterranean recipe Generator</h1></header>
+      <main>
+        <div class="form-container">
+          <form id="recipe-gen-form">
+            <input
+              type="text"
+              placeholder="Enter the name of a recipe or an ingridient"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-btn" />
+          </form>
+          <div class="hint"></div>
+        </div>
+        <div class="recipe hidden" id="recipe"></div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/ladyyasita" target="_blank"
+          >Iaroslava Pozniak</a
+        >
+        and is
+        <a
+          href="https://github.com/ladyyasita/ukranian-poem-generator"
+          target="_blank"
+        >
+          open-sourced on GitHub</a
+        >
+        and is
+        <a href="https://ukranian-poem-generator.netlify.app/" target="_blank"
+          >hosted on Netlify</a
+        >.
+      </footer>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
