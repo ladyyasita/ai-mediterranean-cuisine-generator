@@ -1,13 +1,16 @@
 body {
-  background: radial-gradient(ellipse at top, #1d23e8, transparent),
-    radial-gradient(ellipse at bottom, #b0d4fb, transparent);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/28594604/pexels-photo-28594604/free-photo-of-outdoor-dining-with-fresh-seafood-and-aperol-spritz.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"); /* Replace with your sea wave image URL */
+  background-size: cover;
+  background-position: 0 0;
 }
+
 a {
-  color: #048c78;
+  color: #385c56;
 }
 .container {
-  margin: 150px auto;
+  margin: 80px auto;
   max-width: 1000px;
 }
 header {
@@ -22,7 +25,7 @@ h1 {
 }
 .form-container {
   background-color: rgba(154, 197, 231, 0.539);
-  padding: 15px 20px;
+  padding: 15px 10px;
   box-shadow: 0px 20px 60px rgba(65, 50, 77, 0.04);
   border-radius: 18px;
   margin-bottom: 30px;
